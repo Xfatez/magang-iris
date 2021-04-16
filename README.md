@@ -12,6 +12,7 @@ yang berbeda karena berfungsi untuk menyimpan alamat dari variabel yang menyimpa
 Pointer didesain untuk menyimpan alamat. Pointer fungsinya untuk menyimpan alamat dari variabel menggunakan operator alamat (&)
 
 Secara umum ada 2 jenis operator pointer, yaitu opertor (&) dan (*).
+        
         a. Operator Alamat (&)
         
            Variabel pasti memiliki alamat dalam suatu memori, kita dapat megetahui lamat memori dari variabel dengan menggunakan (&).
@@ -25,6 +26,7 @@ Secara umum ada 2 jenis operator pointer, yaitu opertor (&) dan (*).
            cara menambahkan awalan operator asterisk (*) pada identifier pointer yang berarti 'value pointed by
 
 Contoh penerapan pointer &
+
 #include <iostream>
 
 using namespace std;
