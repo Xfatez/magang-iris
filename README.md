@@ -27,6 +27,8 @@ Secara umum ada 2 jenis operator pointer, yaitu opertor (&) dan (*).
 
 Contoh penerapan pointer &
 
+Sebagai berikut:
+
 #include <iostream>
 using namespace std;
 int main() {
