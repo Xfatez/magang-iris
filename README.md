@@ -110,6 +110,5 @@ Sebagai berikut :
 
             cout << "\n&pUmur:\t" << &pUmur << endl;
 
-            getch();
             return 0;
 }  
