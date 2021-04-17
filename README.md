@@ -72,3 +72,44 @@ sebagai berikut:
             }
 
 Contoh penerapan (*)
+
+Sebagai berikut :
+        
+        #include <iostream>
+        #include <conio.h>
+
+        int main()
+        {
+            using namespace std;
+
+            unsigned short int umurKu = 5, umurMu = 10;
+
+            // sebuah pointer
+            unsigned short int * pUmur = &umurKu;
+
+            cout << "umurKu:\t" << umurKu
+                 << "\t\tumurMu:\t" << umurMu << endl;
+
+            cout << "&umurKu:\t" << &umurKu
+                 << "\t&umurMu:\t" << &umurMu << endl;
+
+            cout << "pUmur:\t" << pUmur << endl;
+            cout << "*pUmur:\t" << *pUmur << endl;
+
+            cout << "\nMenugaskan-ulang: pUmur = &umurMu..." << endl << endl;
+            pUmur = &umurMu; // menugaskan-ulang pointer
+
+            cout << "umurKu:\t" << umurKu <<
+                    "\t\tumurMu:\t" << umurMu << endl;
+
+            cout << "&umurKu:\t" << &umurKu
+                 << "\t&umurMu:\t" << &umurMu << endl;
+
+            cout << "pUmur:\t" << pUmur << endl;
+            cout << "*pUmur:\t" << *pUmur << endl;
+
+            cout << "\n&pUmur:\t" << &pUmur << endl;
+
+            getch();
+            return 0;
+}  
