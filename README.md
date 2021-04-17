@@ -27,46 +27,48 @@ Secara umum ada 2 jenis operator pointer, yaitu opertor (&) dan (*).
 
 Contoh penerapan pointer &
 
-Sebagai berikut:
-#include <iostream>
-using namespace std;
-int main() {
-    void* P;   //Mendeklarasikan pointer P
-              //sebagai pointer tanpa tipe
+sebagai berikut:
 
-    //Mendeklarasikan variabel X, Y dan Z dengan tipe berbeda
-    int X;
-    long Y;
-    double Z;
+        #include <iostream>
+        using namespace std;
+        int main() 
+        {
+        void* P;   //Mendeklarasikan pointer P
+                   //sebagai pointer tanpa tipe
 
-    //Memerintahkan P untuk menunjuk ke alamat dari variabel X
-    P = &X;
-    X = 10;   //Mengisikan variabel X dengan nilai 10
-    //Menampilkan hasil
-    cout << "Nilai X  : " << X << endl;
-    cout << "Nilai P  : " << P << endl;
-    cout << "Nilai &X : " << &X << endl;
-    cout << endl;
+            //Mendeklarasikan variabel X, Y dan Z dengan tipe berbeda
+            int X;
+            long Y;
+            double Z;
 
-    //Memerintah P untuk menunjuk ke alamat dari variabel Y
-    P = &Y;
-    Y = 2000; //Mengisikan variabel Y dengan nilai 2000
-    //Menampilkan hasil
-    cout << "Nilai Y  : " << Y << endl;
-    cout << "Nilai P  : " << P << endl;
-    cout << "Nilai &Y : " << &Y << endl;
-    cout << endl;
+            //Memerintahkan P untuk menunjuk ke alamat dari variabel X
+            P = &X;
+            X = 10;   //Mengisikan variabel X dengan nilai 10
+            //Menampilkan hasil
+            cout << "Nilai X  : " << X << endl;
+            cout << "Nilai P  : " << P << endl;
+            cout << "Nilai &X : " << &X << endl;
+            cout << endl;
 
-    //Memerintahkan P untuk menunjuk ke alamat dari variabel Z
-    P = &Z;
-    Z = 21.0378; //Mengisikan variabel Z dengan nilai 21.0378
-    //Menampilkan hasil
-    cout << "Nilai Z  : " << Z << endl;
-    cout << "Nilai P  : " << P << endl;
-    cout << "Nilai &Z : " << &Z << endl;
-    cout << endl;
+            //Memerintah P untuk menunjuk ke alamat dari variabel Y
+            P = &Y;
+            Y = 2000; //Mengisikan variabel Y dengan nilai 2000
+            //Menampilkan hasil
+            cout << "Nilai Y  : " << Y << endl;
+            cout << "Nilai P  : " << P << endl;
+            cout << "Nilai &Y : " << &Y << endl;
+            cout << endl;
 
-    return 0;
-    }
+            //Memerintahkan P untuk menunjuk ke alamat dari variabel Z
+            P = &Z;
+            Z = 21.0378; //Mengisikan variabel Z dengan nilai 21.0378
+            //Menampilkan hasil
+            cout << "Nilai Z  : " << Z << endl;
+            cout << "Nilai P  : " << P << endl;
+            cout << "Nilai &Z : " << &Z << endl;
+            cout << endl;
+
+            return 0;
+            }
 
 Contoh penerapan (*)
