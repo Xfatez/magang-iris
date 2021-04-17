@@ -28,9 +28,7 @@ Secara umum ada 2 jenis operator pointer, yaitu opertor (&) dan (*).
 Contoh penerapan pointer &
 
 #include <iostream>
-
 using namespace std;
-
 int main() {
     void* P;   //Mendeklarasikan pointer P
               //sebagai pointer tanpa tipe
